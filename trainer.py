@@ -10,7 +10,7 @@ x_train = tf.keras.utils.normalize(x_train, axis=1)
 x_test = tf.keras.utils.normalize(x_test, axis=1)
 
 n_input = 784  # input layer (28x28 pixels)
-n_hidden = 512  # 1st hidden layer
+n_hidden = 150  # 1st hidden layer
 n_output = 10  # output layer (0-9 digits)
 
 # Build the model object
