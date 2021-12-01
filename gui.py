@@ -49,7 +49,7 @@ def pred_digit():
 
 
 def draw_digit(event):
-    #    canvas.configure(background="black")
+    canvas.configure(background="white")
     x = event.x
     y = event.y
     r = 10
